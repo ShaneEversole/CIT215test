@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+</head>
+<body>
+    <label for "coursename">Your course name : <input class="course" type="text"></input></label>
+
+</body>
+<script>
+   //alert("Hello World");//
+   //console.log("Hello World");
+  // var paraText = document.querySelector("#welcomepara")
+  // console.log(paraText.textContent);
+  alert("Hello World");
+
+alert(document.querySelector('.course'));
+
+var txtCourse = document.querySelector('.course');
+
+txtCourse.addEventListener('focusout',
+
+    (event) => { alert(txtCourse.value) })
+</script>
+</html>
